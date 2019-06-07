@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SynthesizeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <!--numColumns:每一行显示多少列-->
+    <!--horizontalSpacing:两列之间的间距-->
+    <!--verticalspacing:两行之间的间距-->
+        <GridView
+            android:id="@+id/grid_synthesize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"/>
+
+
+</FrameLayout>
